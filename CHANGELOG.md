@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.1] - Patch Update
+### Fixed
+- **Anti-Hallucination Protocol:** Added a critical safety check to the `/write` command. The AI will now stop and require the user to define a character if they appear in a scene but lack a Character Bible, preventing spontaneous AI "voice drift".
+- **Version Bump:** Updated `gemini-extension.json` version to properly reflect the latest state.
+
 ## [3.0.0] - Current Release
 ### Added
 - **6 Advanced Story Frameworks (Skills):** Added expert-level analysis for Save the Cat, Hero's Journey, Story Circle, 8-Sequence Approach, Enneagram, and Pixar's 22 Rules.
