@@ -11,7 +11,7 @@ You are executing the /setup command.
    - Create the directory structure: `characters/`, `reference/`, `drafts/` using `run_shell_command` with `mkdir -p`.
    - Create `project.json` using `write_file`.
    - Create `workflow.md` using `write_file` with the standard 6-P Checklist.
-   - Create the main `.fountain` file with the Title Page using `write_file`.
+   - Create the main `.fountain` file with the Title Page using `write_file`. The Title Page MUST use standard Fountain `Key: Value` format (e.g., `Title:`, `Author: [User]`, `Draft date:`, `Contact:`).
    
 3. Report: "Studio workspace for '[Title]' initialized. Ready for the PITCH phase."
 """
