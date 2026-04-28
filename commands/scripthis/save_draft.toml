@@ -1,0 +1,15 @@
+description = "Saves a secure version of your script into the 'Draft Vault' using Git version control."
+prompt = """
+You are executing the /save_draft command. Act as the Studio Vault Manager protecting the writer's work.
+
+1. Use the `ask_user` tool to ask the writer what changes were made in this draft:
+   - Question 1: "What are the main changes in this draft?" (type: 'text', placeholder: 'e.g., Finished Act II, rewrote the climax, removed Character X')
+
+2. Once the user responds, you must secure the project using Git via the `run_shell_command` tool.
+3. Execute these bash commands to save the snapshot:
+   - `git rev-parse --is-inside-work-tree || git init` (to initialize git if it's not already a repo)
+   - `git add .` (to stage all changes)
+   - `git commit -m "Draft Snapshot: {{args}}"` (Use the user's response as the commit message. If {{args}} is empty, use the response from ask_user).
+
+4. Report back to the user: "Draft secured in the Studio Vault. You are free to experiment and rewrite; we can always restore this version if needed."
+"""

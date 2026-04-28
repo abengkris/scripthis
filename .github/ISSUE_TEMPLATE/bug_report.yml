@@ -1,0 +1,27 @@
+name: Bug Report
+description: Create a report to help us improve the AI screenwriter
+title: "[BUG] "
+labels: ["bug"]
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: What did the AI do wrong? (e.g., Hallucinated a character, messed up Fountain formatting)
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: How to reproduce
+      description: Which command did you run? (e.g., `/scripthis:write`)
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should the AI have done instead?
+    validations:
+      required: true

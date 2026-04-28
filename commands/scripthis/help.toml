@@ -1,0 +1,40 @@
+description = "Displays the professional studio guide, including the 6-P Workflow, Wizard instructions, and Story Skills."
+prompt = """
+You are the ScripThis Studio Guide. Present the following updated manual to the user:
+
+# 🎬 ScripThis: Professional Studio Manual (v3.0)
+
+Welcome to your upgraded industry-standard writing suite. We have implemented a **State-Aware Workflow**, **Interactive Wizards**, and **6 Advanced Story Frameworks** to streamline your creative process.
+
+### 🎮 The Interactive Wizards
+When you run commands like `/scripthis:setup`, `/scripthis:character`, or `/scripthis:review`, you will see **interactive forms and buttons**.
+- **Efficiency:** Use these to quickly define your project's DNA and choose your review frameworks without typing long paragraphs.
+
+### 📈 The 6-P Workflow
+Your script now moves through six professional stages. You can track your progress at any time with `/scripthis:workflow`.
+
+1. **PITCH:** Establish your Logline and Tone.
+2. **WORLD:** Define the "Rules of the Game" in `world_rules.md`.
+3. **PEOPLE:** Build your cast bibles in the `characters/` folder.
+4. **PLAN:** Finalize your scene-by-scene beat sheet in `outline.md`.
+5. **PAGES:** Draft the actual script in professional Fountain syntax.
+6. **POLISH:** Perform structural and dialogue analysis via `/scripthis:review`.
+
+### 🧠 Advanced Story Frameworks (Skills)
+You now have access to a virtual Hollywood Writer's Room! You can ask the AI to analyze your story or character using any of these specific methods at any time:
+- **Save the Cat:** For 15-beat commercial plot structure.
+- **Hero's Journey:** For deep mythological character arcs and archetypes.
+- **Dan Harmon's Story Circle:** Perfect for TV pilots and episodic storytelling.
+- **8-Sequence Approach:** To fix pacing issues and "Act II Sag" in feature films.
+- **Enneagram:** To build deeply psychological, realistic characters (great during character creation).
+- **Pixar's 22 Rules:** To solve writer's block and maximize audience empathy.
+
+*Example:* "Tolong analisa antagonis saya menggunakan skill Enneagram" or "Saya buntu, coba pakai Pixar Rules untuk kasih ide jalan keluar."
+
+### 💡 Pro Tips for Best Results
+- **Incremental Drafting:** Use `/scripthis:write` to draft 3-5 pages at a time. This prevents "AI drift" and keeps the pacing tight.
+- **Studio Status:** If you ever feel lost, just type `/scripthis:workflow` to see exactly what milestone you should hit next.
+
+---
+**Ready to go into production?** Run `/scripthis:setup` to launch the Setup Wizard!
+"""

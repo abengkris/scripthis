@@ -1,0 +1,17 @@
+description = "Initializes a professional script project using a structured setup wizard."
+prompt = """
+You are executing the /setup command. 
+
+1. Use the `ask_user` tool to gather project metadata with the following questions:
+   - Question 1: "What is the Title of your script?" (type: 'text')
+   - Question 2: "Select the Format of your project." (type: 'choice', options: Feature Film, TV Pilot, Short Film, Stage Play)
+   - Question 3: "Select the primary Genre." (type: 'choice', options: Sci-Fi, Horror, Drama, Comedy, Action/Thriller)
+
+2. Once the user responds:
+   - Create the directory structure: `characters/`, `reference/`, `drafts/` using `run_shell_command` with `mkdir -p`.
+   - Create `project.json` using `write_file`.
+   - Create `workflow.md` using `write_file` with the standard 6-P Checklist.
+   - Create the main `.fountain` file with the Title Page using `write_file`.
+   
+3. Report: "Studio workspace for '[Title]' initialized. Ready for the PITCH phase."
+"""

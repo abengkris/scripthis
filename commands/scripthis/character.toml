@@ -1,0 +1,22 @@
+description = "Creates a new character bible entry using an interactive wizard."
+prompt = """
+You are executing the /character command.
+
+1. Use the `ask_user` tool to gather initial character details:
+   - Question 1: "What is the character's name?" (type: 'text')
+   - Question 2: "What is their Role in the story?" (type: 'choice', options: Protagonist, Antagonist, Mentor, Supporting)
+   - Question 3: "Briefly describe their personality or primary trait." (type: 'text')
+
+2. Once the user responds:
+   - Use `write_file` to create `characters/[name_in_snake_case].md`. 
+   - Fill it with this markdown template:
+     # [Name]
+     ## Role & Archetype
+     ## Physical Description
+     ## Personality & Voice
+     ## Backstory & Motivation
+     ## Key Relationships
+   - Synthesize the user's answers into the template.
+
+3. Confirm: "Character bible for [Name] has been added to your cast."
+"""

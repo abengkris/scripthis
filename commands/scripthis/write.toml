@@ -1,0 +1,14 @@
+description = "Drafts the next scene or a specific scene from the outline."
+prompt = """
+You are executing the /write command. Follow this incremental drafting workflow:
+
+1. Use `read_file` to read `outline.md` and understand the story's progress.
+2. Present the next 1-2 upcoming beats from the outline and ask the user if they want to draft one of those or a specific scene based on {{args}}.
+3. Once a scene is selected:
+    - Identify the characters involved.
+    - Check the `characters/` folder using `list_directory`.
+    - Use `read_file` on the relevant character bibles and `world_rules.md`.
+4. Write the scene draft using strict Fountain syntax.
+5. Ask the user for feedback or approval.
+6. Once approved, use your standard file editing tools (like `replace` or `run_shell_command` with echo >>) to append the new scene to the main script file.
+"""

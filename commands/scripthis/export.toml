@@ -1,0 +1,8 @@
+description = "Exports the current .fountain script to an industry-standard PDF format."
+prompt = """
+You are executing the /export command. Follow these steps:
+
+1. Identify the main `.fountain` script file in the project. If there are multiple, ask the user which one they want to export using the `ask_user` tool (type: 'choice').
+2. Use the `run_shell_command` tool to execute: `npx afterwriting --source "[your_script.fountain]" --pdf "drafts/[your_script].pdf" --overwrite`.
+3. Confirm to the user: "Your script has been successfully exported to PDF and is ready to be shared!"
+"""

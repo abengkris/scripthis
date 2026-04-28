@@ -1,0 +1,20 @@
+name: Feature Request / New Skill
+description: Suggest an idea for a new command or a new storytelling Skill
+title: "[FEATURE] "
+labels: ["enhancement"]
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature or skill
+      description: What storytelling framework or tool do you want added?
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Why is this useful?
+      description: How will this help screenwriters?
+    validations:
+      required: true
