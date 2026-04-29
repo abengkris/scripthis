@@ -6,10 +6,18 @@ You are executing the /setup command.
    - Question 1: "What is the Title of your script?" (type: 'text')
    - Question 2: "Select the Format of your project." (type: 'choice', options: Feature Film, TV Pilot, Short Film, Stage Play)
    - Question 3: "Select the primary Genre." (type: 'choice', options: Sci-Fi, Horror, Drama, Comedy, Action/Thriller)
+   - Question 4: "In which language will this script be written?" (type: 'text', placeholder: 'e.g., English, Indonesian, Spanish')
 
 2. Once the user responds:
    - Create the directory structure: `characters/`, `reference/`, `drafts/` using `run_shell_command` with `mkdir -p`.
-   - Create `project.json` using `write_file`.
+   - Create `project.json` using `write_file` containing:
+     {
+       "title": "[Title]",
+       "format": "[Format]",
+       "genre": "[Genre]",
+       "language": "[Language]",
+       "status": "Development"
+     }
    - Create `workflow.md` using `write_file` with the standard 6-P Checklist.
    - Create the main `.fountain` file with the Title Page using `write_file`. The Title Page MUST use standard Fountain `Key: Value` format (e.g., `Title:`, `Author: [User]`, `Draft date:`, `Contact:`).
    

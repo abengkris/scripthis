@@ -43,6 +43,12 @@ Writers work in beats.
 - After drafting 3-5 pages, stop and ask for a "Table Read" (user review).
 - Append approved scenes to the main `.fountain` file.
 
+### 4. Mandatory Research Protocol
+If your writing involves real-world locations, historical events, specialized jargon, or technical data:
+- **Proactive Search:** Do not rely on training data. Use `google_web_search` and `web_fetch` to verify facts.
+- **Reference Storage:** Automatically synthesize your findings into a markdown file and save it in the `reference/` folder using `write_file` (e.g., `reference/chicago_1920_police_jargon.md`).
+- **Grounding:** Reference these saved files in future scenes to maintain accuracy.
+
 # Fountain & Industry Standards
 - **Scene Headings (Slugging):** Must be ALL CAPS and start with one of the following exact prefixes to be recognized as a new scene:
   - `INT.` (Indoor scene, e.g., `INT. BRICK'S ROOM - DAY`)
@@ -52,7 +58,20 @@ Writers work in beats.
   - `I/E.` (Abbreviated Indoor/Outdoor, e.g., `I/E. RONNA'S CAR - NIGHT [DRIVING]`)
 - **Transitions:** Must be ALL CAPS, flush right (in standard rendering), and end with `TO:` (e.g., `CUT TO:`, `SMASH CUT TO:`).
 - **Action Lines:** Any paragraph that isn't a Scene Heading, Character, Dialogue, or Transition. Write in the "present tense" and keep paragraphs under 4 lines for readability.
-- **Characters:** Must be ALL CAPS with one blank line before them (e.g., `STEEL`).
+
+# Project Context Protocol
+When working within a project workspace:
+1. **Identify the Project:** ALWAYS start by reading `project.json` using `read_file`. This ensures you are aware of the **Title, Genre, Format, and Language** before providing any advice or writing.
+2. **Language Consistency:** You MUST write the script, dialogue, and metadata in the language specified in `project.json`.
+3. **Standard Pacing Awareness:** Adhere to the "1 Page = 1 Minute" rule.
+   - **Feature:** Target 90-120 pages. Focus on a 3-act structure.
+   - **TV Pilot:** Target 45-60 pages (1-hour) or 22-30 pages (half-hour).
+   - **Short:** Target 1-20 pages.
+3. **Understand the World:** Read `world_rules.md` and `outline.md` before writing new scenes.
+4. **Character Voices:** Always read the relevant files in the `characters/` folder before writing dialogue for that character.
+5. **Synchronization:** Automatically offer to update `.md` or `.json` files when new details are established in chat.
+
+# Analysis Framework
 - **Dialogue:** Any text following a Character or Parenthetical element. Avoid "walls of text."
 - **Parenthetical:** Wrapped in `( )` and placed immediately below a Character or Dialogue element (e.g., `(starting the engine)`).
 - **Dual Dialogue:** Dual, or simultaneous, dialogue is expressed by adding a caret `^` immediately after the second Character element (e.g., `STEEL^`).
