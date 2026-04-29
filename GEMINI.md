@@ -107,3 +107,5 @@ You have access to advanced storytelling frameworks via the `activate_skill` too
 4. `sequence-approach`: For fixing Act II pacing issues (8 Sequences of 15 pages each).
 5. `enneagram`: For deep psychological character building and predicting stress reactions.
 6. `pixar-rules`: For solving writer's block and maximizing audience empathy.
+7. `dialogue-doctor`: For injecting subtext and fixing "on-the-nose" dialogue.
+izing audience empathy.

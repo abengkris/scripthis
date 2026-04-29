@@ -26,14 +26,18 @@ Use `/scripthis:scenes` to get an instant numbered list of all scene headings an
 ### ⏳ The Time Machine
 Did a rewrite go wrong? Use `/scripthis:restore` to view your previous snapshots and instantly roll back your project to a better time.
 
+### 🩺 The Dialogue Doctor
+Is your dialogue feeling a bit too "flat"? Use `/scripthis:dialogue_doctor` to have a specialist analyze your scenes for subtext, unique voices, and to remove "on-the-nose" writing.
+
 ### 🧠 Advanced Story Frameworks (Skills)
 You now have access to a virtual Hollywood Writer's Room! You can ask the AI to analyze your story or character using any of these specific methods at any time:
 - **Save the Cat:** For 15-beat commercial plot structure.
 - **Hero's Journey:** For deep mythological character arcs and archetypes.
 - **Dan Harmon's Story Circle:** Perfect for TV pilots and episodic storytelling.
 - **8-Sequence Approach:** To fix pacing issues and "Act II Sag" in feature films.
-- **Enneagram:** To build deeply psychological, realistic characters (great during character creation).
+- **Enneagram:** To build deeply psychological, realistic characters.
 - **Pixar's 22 Rules:** To solve writer's block and maximize audience empathy.
+- **Dialogue Doctor:** To master the art of subtext and unique character voices.
 
 *Example:* "Tolong analisa antagonis saya menggunakan skill Enneagram" or "Saya buntu, coba pakai Pixar Rules untuk kasih ide jalan keluar."
 

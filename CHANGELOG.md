@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.0] - Dialogue Doctor & Subtext Update
+### Added
+- **Dialogue Doctor:** Introduced the `/scripthis:dialogue_doctor` command and corresponding skill. The AI can now perform a "Subtext Audit" to fix boring, literal dialogue using professional techniques like Deflection, Sarcasm, and Metaphor.
+- **Voice Specialization:** Improved the AI's ability to differentiate character voices based on their unique vocabulary and syntax.
+
 ## [3.0.5] - Time Machine Update
 ### Added
 - **Time Machine:** Introduced the `/scripthis:restore` command, allowing writers to view draft history and roll back the entire project to a previous snapshot.
