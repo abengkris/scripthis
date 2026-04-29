@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.2.0] - Genre-Specific Templates Update
+### Added
+- **Genre Templates:** The `/scripthis:setup` command now automatically populates `outline.md` and `world_rules.md` with professional templates based on the chosen genre (Horror, Sitcom, Sci-Fi, Drama, or Action).
+- **Template Library:** Created a new `templates/` directory to store specialized story structures and worldbuilding rules.
+
 ## [3.1.0] - Dialogue Doctor & Subtext Update
 ### Added
 - **Dialogue Doctor:** Introduced the `/scripthis:dialogue_doctor` command and corresponding skill. The AI can now perform a "Subtext Audit" to fix boring, literal dialogue using professional techniques like Deflection, Sarcasm, and Metaphor.

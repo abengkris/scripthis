@@ -9,6 +9,7 @@ Unlike standard AI writing tools, ScripThis uses **Grounding and State-Awareness
 ## 🚀 Key Features
 
 *   **The 6-P Workflow:** A milestone-driven system (Pitch, World, People, Plan, Pages, Polish) that keeps your project moving through the professional development lifecycle.
+*   **Genre-Specific Templates:** Automatically populates your outline and world rules with professional structures tailored for Horror, Sci-Fi, Sitcom, Drama, and Action.
 *   **Fountain Native:** Generates and reads strictly formatted `.fountain` files, compatible with industry software like Final Draft, Fade In, and Highland 2.
 *   **Character Grounding:** Maintains deep character bibles that the AI references before every line of dialogue to prevent "voice drift."
 *   **Studio-Grade Coverage:** A `/review` command that interactively analyzes your script. Choose from General Coverage, or advanced frameworks like the "Hero's Journey", "Save the Cat", "Story Circle", and "8-Sequence Approach".

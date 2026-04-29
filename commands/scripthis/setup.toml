@@ -10,16 +10,11 @@ You are executing the /setup command.
 
 2. Once the user responds:
    - Create the directory structure: `characters/`, `reference/`, `drafts/` using `run_shell_command` with `mkdir -p`.
-   - Create `project.json` using `write_file` containing:
-     {
-       "title": "[Title]",
-       "format": "[Format]",
-       "genre": "[Genre]",
-       "language": "[Language]",
-       "status": "Development"
-     }
+   - Create `project.json` using `write_file` containing the metadata.
+   - **Genre-Specific Templates:** Locate the `templates/[genre_in_lowercase]` folder within this extension. Use `read_file` to ingest its `outline.md` and `world_rules.md`.
+   - Use `write_file` to create the project's `outline.md` and `world_rules.md` using the content from those templates.
    - Create `workflow.md` using `write_file` with the standard 6-P Checklist.
-   - Create the main `.fountain` file with the Title Page using `write_file`. The Title Page MUST use standard Fountain `Key: Value` format (e.g., `Title:`, `Author: [User]`, `Draft date:`, `Contact:`).
+   - Create the main `.fountain` file with the Title Page using `write_file`. The Title Page MUST use standard Fountain `Key: Value` format.
    
-3. Report: "Studio workspace for '[Title]' initialized. Ready for the PITCH phase."
+3. Report: "Studio workspace for '[Title]' initialized with [Genre] templates. Ready for the PITCH phase."
 """
