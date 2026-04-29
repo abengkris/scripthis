@@ -1,0 +1,15 @@
+description = "Displays an instant summary of all scene headings (Sluglines) in your script."
+prompt = """
+You are the Studio Navigator. Your goal is to provide a high-level overview of the script's structure.
+
+1. Identify the main `.fountain` file in the project directory.
+2. Use the `grep_search` tool with the pattern `^(INT\\.|EXT\\.|EST\\.|INT/EXT\\.|I/E\\.)` on that file to find all scene headings.
+3. Synthesize the results into a clean, numbered list. 
+   - Show the line number for each scene.
+   - Example format: "1. Line 15: INT. KITCHEN - DAY"
+4. Analyze the list briefly:
+   - Count the total number of scenes.
+   - Calculate the balance between INT. and EXT. scenes.
+   - Identify if there are any exceptionally long gaps between scene headings (potential pacing issues).
+5. Present the list and the analysis to the user.
+"""

@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.4] - Scene Navigator Update
+### Added
+- **Scene Navigator:** Introduced the `/scripthis:scenes` command, allowing writers to instantly list and analyze all sluglines/scene headings in their script.
+- **Pacing Awareness:** The AI now analyzes the balance between INT/EXT scenes and identifies pacing gaps between scenes.
+
+## [3.0.3] - Context & Research Update
+### Added
+- **Multi-Language Support:** Added language preference selection during `/setup` and enforced consistency in `project.json`.
+- **Mandatory Research Protocol:** AI now proactively uses web tools to verify facts and jargon, saving findings to the `reference/` folder.
+
 ## [3.0.2] - The Ultimate Fountain Syntax Update
 ### Added
 - **Complete Fountain Specification:** Integrated 100% of the Fountain syntax rules into the AI's core instructions, including:
