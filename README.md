@@ -30,6 +30,7 @@ Unlike standard AI writing tools, ScripThis uses **Grounding and State-Awareness
 | `/scripthis:export` | Exports the current `.fountain` script to a professional PDF file. |
 | `/scripthis:research`| Performs live web research and fact-checking for your script. |
 | `/scripthis:save_draft`| Secures your script's current state into a Git-based "Draft Vault" for safe rewriting. |
+| `/scripthis:restore`   | Restores your script to a previous version from the Studio Vault (Time Machine). |
 | `/scripthis:help` | Displays the Studio Manual and Pro-Tips for best results. |
 
 ---

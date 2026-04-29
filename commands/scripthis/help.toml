@@ -23,6 +23,9 @@ Your script now moves through six professional stages. You can track your progre
 ### 🗺️ Script Navigation
 Use `/scripthis:scenes` to get an instant numbered list of all scene headings and their line numbers. It's the best way to see the "Big Picture" of your script's structure.
 
+### ⏳ The Time Machine
+Did a rewrite go wrong? Use `/scripthis:restore` to view your previous snapshots and instantly roll back your project to a better time.
+
 ### 🧠 Advanced Story Frameworks (Skills)
 You now have access to a virtual Hollywood Writer's Room! You can ask the AI to analyze your story or character using any of these specific methods at any time:
 - **Save the Cat:** For 15-beat commercial plot structure.

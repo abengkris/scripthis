@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.5] - Time Machine Update
+### Added
+- **Time Machine:** Introduced the `/scripthis:restore` command, allowing writers to view draft history and roll back the entire project to a previous snapshot.
+- **Improved Version Control:** Refined the integration between drafting and the Git-based Studio Vault.
+
 ## [3.0.4] - Scene Navigator Update
 ### Added
 - **Scene Navigator:** Introduced the `/scripthis:scenes` command, allowing writers to instantly list and analyze all sluglines/scene headings in their script.
