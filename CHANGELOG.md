@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.3.0] - Moodboard Generator Update
+### Added
+- **Moodboard Integration:** Introduced the `/scripthis:moodboard` command. The AI now acts as a Concept Artist, reading character bibles and world rules to generate hyper-detailed image prompts for tools like Midjourney or DALL-E.
+- **Visual Synthesis:** The AI can now translate narrative atmosphere into technical photography and cinematography terms (lighting, lens type, style).
+
 ## [3.2.0] - Genre-Specific Templates Update
 ### Added
 - **Genre Templates:** The `/scripthis:setup` command now automatically populates `outline.md` and `world_rules.md` with professional templates based on the chosen genre (Horror, Sitcom, Sci-Fi, Drama, or Action).

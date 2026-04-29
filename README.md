@@ -13,7 +13,8 @@ Unlike standard AI writing tools, ScripThis uses **Grounding and State-Awareness
 *   **Fountain Native:** Generates and reads strictly formatted `.fountain` files, compatible with industry software like Final Draft, Fade In, and Highland 2.
 *   **Character Grounding:** Maintains deep character bibles that the AI references before every line of dialogue to prevent "voice drift."
 *   **Studio-Grade Coverage:** A `/review` command that interactively analyzes your script. Choose from General Coverage, or advanced frameworks like the "Hero's Journey", "Save the Cat", "Story Circle", and "8-Sequence Approach".
-*   **Interactive Wizards:** Uses the `ask_user` tool for a sleek, multiple-choice setup, character creation, and review selection experience.
+*   **Interactive Wizards:** Uses the `ask_user` tool for a sleek setup, character creation, review selection, and moodboard generation.
+*   **Moodboard Integration:** Automatically reads your bibles and world rules to generate highly detailed prompts for image generators like Midjourney.
 *   **Advanced Story Frameworks (Skills):** Access a virtual Writer's Room with skills built-in for: Save the Cat, Hero's Journey, Dan Harmon's Story Circle, 8-Sequence Approach, Enneagram, Pixar's 22 Rules, and Dialogue Doctor.
 
 ---
@@ -74,7 +75,6 @@ ScripThis does not try to write your script in one go. It uses the **Incremental
 
 ---
 *Created for writers who want the power of AI with the control of a professional studio.*
- 90 as it was on page 1.
 
----
-*Created for writers who want the power of AI with the control of a professional studio.*
+he power of AI with the control of a professional studio.*
+

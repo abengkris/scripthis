@@ -29,6 +29,9 @@ Did a rewrite go wrong? Use `/scripthis:restore` to view your previous snapshots
 ### 🩺 The Dialogue Doctor
 Is your dialogue feeling a bit too "flat"? Use `/scripthis:dialogue_doctor` to have a specialist analyze your scenes for subtext, unique voices, and to remove "on-the-nose" writing.
 
+### 🎨 The Moodboard Generator
+Need to visualize your world? Use `/scripthis:moodboard` to generate hyper-detailed image prompts for your characters and locations, ready for Midjourney or DALL-E.
+
 ### 🧠 Advanced Story Frameworks (Skills)
 You now have access to a virtual Hollywood Writer's Room! You can ask the AI to analyze your story or character using any of these specific methods at any time:
 - **Save the Cat:** For 15-beat commercial plot structure.
