@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.5.1] - Pacing and Progress Tracking Update
+### Added
+- **Pacing Guidelines:** Added explicit pacing rules for Stage Play, Sitcom (30 min), and general Genre notes to `GEMINI.md`.
+- **Progress Tracking:** Updated `/scripthis:workflow` to actively estimate the script's page count and report progress against the genre target.
+
 ## [3.5.0] - Release Ready Cleanup
 ### Added
 - **Sitcom Genre:** Added 'Sitcom' as a distinct genre option in the Setup Wizard, correctly mapping to its dedicated template folder.

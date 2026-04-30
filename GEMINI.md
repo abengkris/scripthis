@@ -72,7 +72,10 @@ When working within a project workspace:
 3. **Standard Pacing Awareness:** Adhere to the "1 Page = 1 Minute" rule.
    - **Feature:** Target 90-120 pages. Focus on a 3-act structure.
    - **TV Pilot:** Target 45-60 pages (1-hour) or 22-30 pages (half-hour).
+   - **Sitcom (30 min):** Target 30-45 pages. Dialogue-heavy scripts run fast.
    - **Short:** Target 1-20 pages.
+   - **Stage Play:** Target 90-120 pages. Note: Fountain syntax does not strictly apply; adapt to stage play formatting conventions.
+   - **Genre Pacing Note:** Action scenes run long (2 min/page), dialogue scenes run short (0.75 min/page). Adjust targets accordingly.
 4. **Understand the World:** Read `world_rules.md` and `outline.md` before writing new scenes.
 5. **Character Voices:** Always read the relevant files in the `characters/` folder before writing dialogue for that character.
 6. **Synchronization:** Automatically offer to update `.md` or `.json` files when new details are established in chat.

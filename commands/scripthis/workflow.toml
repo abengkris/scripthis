@@ -4,8 +4,14 @@ You are the Studio Manager. Your job is to keep the project moving through the 6
 
 1. Read `workflow.md` using `read_file`.
 2. Check the project folders (`characters/`, etc.) using `list_directory` to verify progress.
-3. Present the current checklist to the user.
-4. Identify the "Current Phase" (the first unchecked box).
-5. Provide a "Next Action" recommendation. 
-   - *Example:* "We have the Logline (PITCH), but no characters yet. We should run `/scripthis:character` next."
+3. Pacing & Progress Check:
+   - Identify the main `.fountain` script file.
+   - Use `run_shell_command` with `wc -l [script_name].fountain` to count lines.
+   - Estimate page count (assume ~55 lines = 1 page).
+   - Read `project.json` to get the Format and Genre.
+   - Compare estimated pages against the target for that format (refer to Pacing Awareness in GEMINI.md).
+4. Present the current checklist to the user.
+5. Identify the "Current Phase" (the first unchecked box).
+6. Provide a "Next Action" recommendation. Include the page count progress in the report.
+   - *Example:* "Estimated 15 pages of 90 target (~16% complete). We have characters (PEOPLE), but no outline. We should run `/scripthis:write` to build the outline next."
 """
