@@ -13,7 +13,7 @@ You are executing the /write command. Follow this incremental drafting workflow:
     - Check the `characters/` folder using `list_directory`.
     - **CRITICAL:** If a character is involved but their markdown bible DOES NOT exist in the `characters/` folder, STOP writing. Tell the user: "Character '[Name]' is in this scene, but they don't have a Character Bible yet. Please define them briefly so I know how they speak, or run `/scripthis:character` first." Do not proceed until the character is defined.
     - Use `read_file` on the existing relevant character bibles and `world_rules.md`.
-5. Use the `activate_skill` tool to activate the `fountain-syntax` skill. This skill contains all formatting and syntax rules. Then, write the scene draft using strict Fountain syntax.
+5. Use the `activate_skill` tool to activate the `fountain-syntax` skill. If the tool is unavailable, proceed using your inherent knowledge of Fountain formatting. Then, write the scene draft using strict Fountain syntax.
 6. Ask the user for feedback or approval.
 7. Once approved, use your standard file editing tools (like `replace` or `run_shell_command` with echo >>) to append the new scene to the main script file.
 
