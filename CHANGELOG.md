@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.5.2] - Workflow Stability Update
+### Fixed
+- **Filename Quoting:** Updated `/scripthis:workflow` to safely quote the `.fountain` filename during line-counting to prevent shell errors with spaces.
+- **Workflow Examples:** Corrected a misleading "Next Action" example in `/scripthis:workflow` to accurately reflect the studio workflow logic.
+
 ## [3.5.1] - Pacing and Progress Tracking Update
 ### Added
 - **Pacing Guidelines:** Added explicit pacing rules for Stage Play, Sitcom (30 min), and general Genre notes to `GEMINI.md`.
