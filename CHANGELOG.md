@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.6.7] - Cleanup Update
+### Fixed
+- **Artifact Removal:** Removed accidentally tracked `release_notes_tmp.md` file from the repository.
+
 ## [3.6.6] - Review Formatting Update
 ### Added
 - **Strict Output Format:** Enforced a standardized structure for the `/scripthis:review` command's coverage report (Logline Analysis, Structural Assessment, Character Arcs, Dialogue Notes, and Rating). This guarantees consistency across drafts and AI sessions.

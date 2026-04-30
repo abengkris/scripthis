@@ -1,2 +1,0 @@
-### Added
-- **Strict Output Format:** Enforced a standardized structure for the `/scripthis:review` command's coverage report (Logline Analysis, Structural Assessment, Character Arcs, Dialogue Notes, and Rating). This guarantees consistency across drafts and AI sessions.
