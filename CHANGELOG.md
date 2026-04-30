@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.4.0] - Safety & Workflow Refinement Update
+### Added
+- **Three-Act Structure Skill:** Added a fundamental story framework skill (`three-act-structure`) for more accessible pacing and structure analysis.
+- **Logline Workshop:** Introduced the `/scripthis:logline` command to refine and validate loglines based on Protagonist, Goal, Conflict, and Stakes.
+
+### Fixed
+- **.gitignore Conflict:** Cleaned up the extension's `.gitignore` to prevent conflicts with the user's project files. Setup now initializes a project-local `.gitignore`.
+- **Shell Injection Security:** Added strict input sanitization and shell escaping/quoting for user input in `save_draft.toml` and other commands.
+- **Restore Safety:** Added `git stash` and explicit confirmation step in `/scripthis:restore` to prevent data loss.
+- **Export Error Handling:** Added system requirement verification (Node.js/npx) and graceful error reporting for `/scripthis:export`.
+- **Review Persistence:** Added an optional save feature to `/scripthis:review` to store coverage reports in `drafts/`.
+- **Multilingual Support:** Fixed `help.toml` to dynamically translate the studio manual based on `project.json` language.
+- **Writing Validation:** Added pre-check for `outline.md` in `/scripthis:write` to ensure project environment is valid.
+- **TV Series Support:** Added series naming conventions to `world_rules.md` templates for TV Pilot projects.
+- **Documentation:** Fixed numbering in `GEMINI.md`, removed artifacting at the end of files, and updated `README.md` with requirements and skill fallback notes.
+
 ## [3.3.0] - Moodboard Generator Update
 ### Added
 - **Moodboard Integration:** Introduced the `/scripthis:moodboard` command. The AI now acts as a Concept Artist, reading character bibles and world rules to generate hyper-detailed image prompts for tools like Midjourney or DALL-E.

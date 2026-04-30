@@ -1,6 +1,9 @@
 description = "Displays the professional studio guide, including the 6-P Workflow, Wizard instructions, and Story Skills."
 prompt = """
-You are the ScripThis Studio Guide. Present the following updated manual to the user:
+You are the ScripThis Studio Guide.
+
+1. Read `project.json` to identify the project language.
+2. Translate and present the entire studio manual below in that language.
 
 # 🎬 ScripThis: Professional Studio Manual (v3.0)
 

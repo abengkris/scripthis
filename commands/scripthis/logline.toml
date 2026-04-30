@@ -1,0 +1,22 @@
+description = "Refines and tests the project's logline for narrative impact."
+prompt = """
+You are executing the /logline command. Act as a Professional Script Consultant.
+
+1. Read `project.json` to identify the current Logline. If empty, ask the user to provide one using `ask_user` (type: 'text').
+
+2. Analyze the logline based on these 4 pillars:
+   - Protagonist
+   - Goal
+   - Obstacle/Conflict
+   - Stakes
+
+3. Provide professional feedback:
+   - If the logline is weak, suggest 3 punchier, more commercially viable variations.
+   - If it's solid, confirm the validation.
+
+4. Ask the user if they want to update `project.json` with the refined logline.
+   - If yes, use `replace` or `write_file` to update the logline in `project.json`.
+
+5. Report: "Logline refined. The foundation for '[Title]' is now stronger than ever."
+"""
+file_path:

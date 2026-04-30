@@ -1,15 +1,4 @@
-# Project / Script files (Do not commit the user's actual script data to the extension repo)
-drafts/
-characters/
-reference/
-project.json
-workflow.md
-outline.md
-world_rules.md
-*.fountain
-*.pdf
-
-# Node.js (just in case)
+# Node.js
 node_modules/
 package-lock.json
 

@@ -60,8 +60,10 @@ project_root/
 ## 💻 Installation & Setup
 
 ### 1. Requirements
-*   **Gemini CLI** installed and configured.
+*   **Gemini CLI v0.5.0 or higher** (Required for `activate_skill` functionality).
 *   *(Optional)* **Node.js/npm** if you want to use the `/scripthis:export` command (it uses `npx afterwriting` to generate PDFs).
+
+*Note: ScripThis utilizes advanced AI skills. If a skill is not found, the system will proceed with standard prompt-based intelligence. Please ensure your environment is updated to support extension-level skills.*
 
 ### 2. Local Installation
 Clone this repository to your local machine and run the following in the project root to link the extension to your Gemini CLI:

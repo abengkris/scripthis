@@ -69,9 +69,9 @@ When working within a project workspace:
    - **Feature:** Target 90-120 pages. Focus on a 3-act structure.
    - **TV Pilot:** Target 45-60 pages (1-hour) or 22-30 pages (half-hour).
    - **Short:** Target 1-20 pages.
-3. **Understand the World:** Read `world_rules.md` and `outline.md` before writing new scenes.
-4. **Character Voices:** Always read the relevant files in the `characters/` folder before writing dialogue for that character.
-5. **Synchronization:** Automatically offer to update `.md` or `.json` files when new details are established in chat.
+4. **Understand the World:** Read `world_rules.md` and `outline.md` before writing new scenes.
+5. **Character Voices:** Always read the relevant files in the `characters/` folder before writing dialogue for that character.
+6. **Synchronization:** Automatically offer to update `.md` or `.json` files when new details are established in chat.
 
 # Analysis Framework
 - **Dialogue:** Any text following a Character or Parenthetical element. Avoid "walls of text."
@@ -108,8 +108,3 @@ You have access to advanced storytelling frameworks via the `activate_skill` too
 5. `enneagram`: For deep psychological character building and predicting stress reactions.
 6. `pixar-rules`: For solving writer's block and maximizing audience empathy.
 7. `dialogue-doctor`: For injecting subtext and fixing "on-the-nose" dialogue.
-
-building and predicting stress reactions.
-6. `pixar-rules`: For solving writer's block and maximizing audience empathy.
-7. `dialogue-doctor`: For injecting subtext and fixing "on-the-nose" dialogue.
-izing audience empathy.

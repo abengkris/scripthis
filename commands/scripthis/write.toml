@@ -2,7 +2,11 @@ description = "Drafts the next scene or a specific scene from the outline."
 prompt = """
 You are executing the /write command. Follow this incremental drafting workflow:
 
-1. Use `read_file` to read `outline.md` and understand the story's progress.
+1. Validate the project environment:
+   - Check if `outline.md` exists in the project root.
+   - If not found, inform the user: "Project structure incomplete: `outline.md` not found. Please run `/scripthis:setup` first to initialize your project." and stop.
+
+2. Use `read_file` to read `outline.md` and understand the story's progress.
 2. Present the next 1-2 upcoming beats from the outline and ask the user if they want to draft one of those or a specific scene based on {{args}}.
 3. Once a scene is selected:
     - Identify all characters involved in the scene.

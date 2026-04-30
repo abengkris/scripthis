@@ -7,9 +7,9 @@ You are executing the /save_draft command. Act as the Studio Vault Manager prote
 
 2. Once the user responds, you must secure the project using Git via the `run_shell_command` tool.
 3. Execute these bash commands to save the snapshot:
-   - `git rev-parse --is-inside-work-tree || git init` (to initialize git if it's not already a repo)
-   - `git add .` (to stage all changes)
-   - `git commit -m "Draft Snapshot: {{args}}"` (Use the user's response as the commit message. If {{args}} is empty, use the response from ask_user).
+   - `git rev-parse --is-inside-work-tree || git init`
+   - `git add .`
+   - Use the `run_shell_command` tool to execute `git commit` with the user's input safely escaped/quoted. Ensure the command format is: `git commit -m "Draft Snapshot: ${USER_INPUT}"` where the user input is treated strictly as a string literal and not evaluated by the shell. Avoid raw string concatenation.
 
 4. Report back to the user: "Draft secured in the Studio Vault. You are free to experiment and rewrite; we can always restore this version if needed."
 """
