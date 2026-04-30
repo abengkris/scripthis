@@ -92,7 +92,7 @@ When working within a project workspace:
 - **Sections:** Created by preceding a line with one or more `#` signs (e.g., `# Act`, `## Sequence`).
 - **Synopses:** Single-line descriptions of sections or scenes, prefixed by an equal sign `=` (e.g., `= Set up the characters.`).
 
-# Analysis Framework
+# Story Analysis Terminology
 When reviewing or brainstorming, use professional terminology:
 - **Inciting Incident:** What starts the journey?
 - **Midpoint Shift:** Where do the stakes change?

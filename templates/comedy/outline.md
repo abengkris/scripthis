@@ -1,16 +1,20 @@
-# Outline for Comedy Project
+# Outline for Comedy Project (Sitcom/Short)
+
+- **Cold Open**
+  - Hook the audience immediately with a quick, funny situation that establishes the episode's theme.
 
 - **Act I: The Setup**
-  - Introduction of the protagonist and their status quo.
-  - The Inciting Incident: An event that disrupts their life.
-  - The Choice: The character commits to a new path.
+  - Introduce the core conflict (A-Story) and the secondary complication (B-Story).
+  - The inciting incident that forces the protagonist to make a bad decision.
 
-- **Act II: The Struggle**
-  - Raising the stakes and introducing obstacles.
-  - The Midpoint: A major shift occurs, raising the stakes or changing the goal.
-  - The Low Point: Everything seems lost.
+- **Act II: The Escalation**
+  - The "Rule of Three": The problem repeats and intensifies.
+  - Complications overlap between A and B stories.
+  - The Midpoint: The situation becomes absurdly unmanageable.
 
-- **Act III: The Resolution**
-  - The Climax: The final, most intense confrontation between the protagonist and their conflict.
-  - The Falling Action.
-  - The Resolution: New status quo established.
+- **Act III: The Climax**
+  - The "All is Lost" moment where everything blows up in the character's face.
+  - The Climax: A final, frantic attempt to fix the mess.
+
+- **Tag / Resolution**
+  - A quick return to the status quo with a final joke (The "button").

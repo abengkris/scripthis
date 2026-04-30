@@ -33,6 +33,7 @@ Unlike standard AI writing tools, ScripThis uses **Grounding and State-Awareness
 | `/scripthis:research`| Performs live web research and fact-checking for your script. |
 | `/scripthis:save_draft`| Secures your script's current state into a Git-based "Draft Vault" for safe rewriting. |
 | `/scripthis:restore`   | Restores your script to a previous version from the Studio Vault (Time Machine). |
+| `/scripthis:logline`   | Refines and validates your story's logline against professional pillars. |
 | `/scripthis:dialogue_doctor` | Polishes scene dialogue to add subtext and remove "on-the-nose" lines. |
 | `/scripthis:moodboard` | Generates detailed image prompts to visualize characters and locations. |
 | `/scripthis:help` | Displays the Studio Manual and Pro-Tips for best results. |

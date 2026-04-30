@@ -4,7 +4,7 @@ First off, thank you for considering contributing to ScripThis! It's people like
 
 ## Where can I contribute?
 
-1. **Adding New Skills:** Are you an expert in a specific storytelling framework (e.g., The Snowflake Method, Three-Act Structure, Truby's 22 Building Blocks)? You can add a new skill!
+1. **Adding New Skills:** Are you an expert in a specific storytelling framework (e.g., The Snowflake Method, Truby's 22 Building Blocks)? You can add a new skill!
    - Create a new folder in `skills/` (e.g., `skills/snowflake-method/`).
    - Add a `SKILL.md` file explaining the framework and instructions for the AI.
 2. **Improving Commands:** Have an idea for a new command? Create a new `.toml` file in `commands/scripthis/` using the existing syntax.
