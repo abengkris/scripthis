@@ -1,2 +1,2 @@
-### Fixed
-- **Help Command Crash:** Added a fallback mechanism to `/scripthis:help` so it defaults to English if the user runs the command before initializing a project (`project.json` is missing).
+### Added
+- **Review Guard Clause:** Added an initial validation step to `/scripthis:review` to check if a `.fountain` script file actually exists before attempting to provide coverage, preventing AI hallucinations or crashes on empty projects.

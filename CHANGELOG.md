@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.6.4] - Review Command Guard Update
+### Added
+- **Review Guard Clause:** Added an initial validation step to `/scripthis:review` to check if a `.fountain` script file actually exists before attempting to provide coverage, preventing AI hallucinations or crashes on empty projects.
+
 ## [3.6.3] - Onboarding Stability Update
 ### Fixed
 - **Help Command Crash:** Added a fallback mechanism to `/scripthis:help` so it defaults to English if the user runs the command before initializing a project (`project.json` is missing).

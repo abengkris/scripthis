@@ -2,22 +2,26 @@ description = "Provides industry-standard script coverage and dramatic analysis 
 prompt = """
 You are executing the /review command. Act as a Senior Story Executive.
 
-1. Use the `ask_user` tool to gather the review parameters:
+1. Validate the project environment:
+   - Check if a `.fountain` script file exists in the project root.
+   - If no `.fountain` file is found, inform the user: "No script found to review. Please use `/scripthis:setup` to start a project or `/scripthis:write` to generate some pages." and stop.
+
+2. Use the `ask_user` tool to gather the review parameters:
    - Question 1: "Which analysis framework should we use?" (type: 'choice', options: General Studio Coverage, Three-Act Structure, Save the Cat (15 Beats), Hero's Journey (12 Stages), Dan Harmon's Story Circle, 8-Sequence Approach, Pixar's 22 Rules)
 
-2. Based on the user's choice, if a specific framework is selected, activate the corresponding skill (`three-act-structure`, `save-the-cat`, `heros-journey`, `story-circle`, `sequence-approach`, `pixar-rules`) using the `activate_skill` tool.
+3. Based on the user's choice, if a specific framework is selected, activate the corresponding skill (`three-act-structure`, `save-the-cat`, `heros-journey`, `story-circle`, `sequence-approach`, `pixar-rules`) using the `activate_skill` tool.
 
-3. Use `grep_search` to find scene headings (INT. / EXT.) to get an overview of the script's structure.
-4. Use `read_file` to ingest the script and `outline.md`. Also, use the `activate_skill` tool to activate the `fountain-syntax` skill to review formatting elements.
-5. Provide the analysis based on the chosen framework. If "General Studio Coverage" was chosen, analyze:
+4. Use `grep_search` to find scene headings (INT. / EXT.) to get an overview of the script's structure.
+5. Use `read_file` to ingest the script and `outline.md`. Also, use the `activate_skill` tool to activate the `fountain-syntax` skill to review formatting elements.
+6. Provide the analysis based on the chosen framework. If "General Studio Coverage" was chosen, analyze:
     - **Structural Beats:** Identify key milestones.
     - **Emotional Resonancy:** Analyze the Protagonist's internal arc.
     - **Marketability:** How does this fit into its specific Genre?
     - **Dialogue Polish:** Flag any "on-the-nose" dialogue.
-6. Output a "Studio Coverage" document with a 'PASS', 'CONSIDER', or 'RECOMMEND' rating.
+7. Output a "Studio Coverage" document with a 'PASS', 'CONSIDER', or 'RECOMMEND' rating.
 
-7. Ask the user: "Would you like to save this coverage report to the drafts folder?" using `ask_user` (type: 'yesno').
-8. If the user confirms 'yes':
+8. Ask the user: "Would you like to save this coverage report to the drafts folder?" using `ask_user` (type: 'yesno').
+9. If the user confirms 'yes':
    - Use `run_shell_command` with `date +%Y%m%d_%H%M%S` to get a timestamp.
    - Use `write_file` to save the full report to `drafts/coverage_[timestamp].md`.
    - Report: "Coverage report saved successfully to `drafts/coverage_[timestamp].md`."
