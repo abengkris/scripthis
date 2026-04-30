@@ -19,4 +19,8 @@ You are executing the /character command.
    - Synthesize the user's answers into the template.
 
 3. Confirm: "Character bible for [Name] has been added to your cast."
+
+### 🚫 Negative Constraints (CRITICAL)
+- **Do NOT** write backstory elements that conflict with the established `world_rules.md`.
+- **Do NOT** invent relationships with characters that do not exist yet without asking the user.
 """

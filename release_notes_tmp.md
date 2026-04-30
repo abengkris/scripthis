@@ -1,0 +1,2 @@
+### Added
+- **Negative Constraints:** Added strict "Do NOT" rules to core commands (`/write`, `/review`, `/character`) to prevent AI hallucination, unapproved world-building, and "voice drift". For instance, the AI will now forcefully refuse to write more than 5 pages without user approval or invent dialogue for undefined characters.

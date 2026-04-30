@@ -21,4 +21,8 @@ You are executing the /review command. Act as a Senior Story Executive.
    - Use `run_shell_command` with `date +%Y%m%d_%H%M%S` to get a timestamp.
    - Use `write_file` to save the full report to `drafts/coverage_[timestamp].md`.
    - Report: "Coverage report saved successfully to `drafts/coverage_[timestamp].md`."
+
+### 🚫 Negative Constraints (CRITICAL)
+- **Do NOT** review or reference scenes or plot points that are not explicitly written in the `.fountain` file or `outline.md`.
+- **Do NOT** provide generic advice; all critique must cite specific lines or scenes from the user's text.
 """

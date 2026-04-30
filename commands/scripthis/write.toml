@@ -16,4 +16,9 @@ You are executing the /write command. Follow this incremental drafting workflow:
 5. Use the `activate_skill` tool to activate the `fountain-syntax` skill. This skill contains all formatting and syntax rules. Then, write the scene draft using strict Fountain syntax.
 6. Ask the user for feedback or approval.
 7. Once approved, use your standard file editing tools (like `replace` or `run_shell_command` with echo >>) to append the new scene to the main script file.
+
+### 🚫 Negative Constraints (CRITICAL)
+- **Do NOT** invent dialogue or personality traits for a character whose bible you haven't read.
+- **Do NOT** write more than 5 pages (roughly 5 scenes) without stopping to ask the user for a "Table Read" (review).
+- **Do NOT** introduce new major world rules without prompting the user to update `world_rules.md` first.
 """
