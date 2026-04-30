@@ -15,7 +15,7 @@ Unlike standard AI writing tools, ScripThis uses **Grounding and State-Awareness
 *   **Studio-Grade Coverage:** A `/review` command that interactively analyzes your script. Choose from General Coverage, or advanced frameworks like the "Hero's Journey", "Save the Cat", "Story Circle", and "8-Sequence Approach".
 *   **Interactive Wizards:** Uses the `ask_user` tool for a sleek setup, character creation, review selection, and moodboard generation.
 *   **Moodboard Integration:** Automatically reads your bibles and world rules to generate highly detailed prompts for image generators like Midjourney.
-*   **Advanced Story Frameworks (Skills):** Access a virtual Writer's Room with skills built-in for: Three-Act Structure, Save the Cat, Hero's Journey, Dan Harmon's Story Circle, 8-Sequence Approach, Enneagram, Pixar's 22 Rules, and Dialogue Doctor.
+*   **Advanced Story Frameworks (Skills):** Access a virtual Writer's Room with skills built-in for: Fountain Syntax, Three-Act Structure, Save the Cat, Hero's Journey, Dan Harmon's Story Circle, 8-Sequence Approach, Enneagram, Pixar's 22 Rules, and Dialogue Doctor.
 
 ---
 

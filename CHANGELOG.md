@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.6.0] - Context Efficiency Update
+### Added
+- **Fountain Syntax Skill:** Extracted all Fountain formatting and syntax rules from `GEMINI.md` into a new, on-demand `fountain-syntax` skill to significantly reduce the persistent context window load.
+
+### Changed
+- **Optimized Prompts:** Updated `/scripthis:write` and `/scripthis:review` to dynamically load the `fountain-syntax` skill only when needed, preventing "lost in the middle" context truncation on longer scripts.
+
 ## [3.5.2] - Workflow Stability Update
 ### Fixed
 - **Filename Quoting:** Updated `/scripthis:workflow` to safely quote the `.fountain` filename during line-counting to prevent shell errors with spaces.

@@ -5,7 +5,7 @@ You are the ScripThis Studio Guide.
 1. Read `project.json` to identify the project language.
 2. Translate and present the entire studio manual below in that language.
 
-# 🎬 ScripThis: Professional Studio Manual (v3.5.0)
+# 🎬 ScripThis: Professional Studio Manual (v3.6.0)
 
 Welcome to your upgraded industry-standard writing suite. We have implemented a **State-Aware Workflow**, **Interactive Wizards**, and **6 Advanced Story Frameworks** to streamline your creative process.
 
@@ -40,6 +40,7 @@ Need to visualize your world? Use `/scripthis:moodboard` to generate hyper-detai
 
 ### 🧠 Advanced Story Frameworks (Skills)
 You now have access to a virtual Hollywood Writer's Room! You can ask the AI to analyze your story or character using any of these specific methods at any time:
+- **Fountain Syntax:** To quickly access industry-standard script formatting rules.
 - **Three-Act Structure:** For fundamental narrative pacing and structural closure.
 - **Save the Cat:** For 15-beat commercial plot structure.
 - **Hero's Journey:** For deep mythological character arcs and archetypes.
