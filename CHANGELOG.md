@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.5.0] - Release Ready Cleanup
+### Added
+- **Sitcom Genre:** Added 'Sitcom' as a distinct genre option in the Setup Wizard, correctly mapping to its dedicated template folder.
+
+### Fixed
+- **Documentation Sync:** Updated `GEMINI.md` to include all current custom commands (`/logline`, `/dialogue_doctor`, `/moodboard`, `/help`).
+- **Key Features:** Added 'Three-Act Structure' to the advanced story frameworks list in `README.md`.
+- **Version Headers:** Synchronized the manual version in `help.toml` to v3.5.0.
+- **Copyright:** Updated `LICENSE` year to 2024-2026.
+
 ## [3.4.1] - Maintenance & Cleanup Update
 ### Fixed
 - **Artifact Removal:** Fixed trailing `file_path:` artifact in `logline.toml`.
