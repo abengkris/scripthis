@@ -9,7 +9,7 @@ You are executing the /save_draft command. Act as the Studio Vault Manager prote
 3. Execute these bash commands to save the snapshot:
    - `git rev-parse --is-inside-work-tree || git init`
    - `git add .`
-   - Use the `run_shell_command` tool to execute `git commit` with the user's input safely escaped/quoted. Ensure the command format is: `git commit -m "Draft Snapshot: ${USER_INPUT}"` where the user input is treated strictly as a string literal and not evaluated by the shell. Avoid raw string concatenation.
+   - Use the `run_shell_command` tool to execute `git commit`. Use the text the user provided in step 1 as the commit message value, formatted as: `Draft Snapshot: [user input]`. Ensure the user input is safely escaped or quoted when passing it to the shell.
 
 4. Report back to the user: "Draft secured in the Studio Vault. You are free to experiment and rewrite; we can always restore this version if needed."
 """

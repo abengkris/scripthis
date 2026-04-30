@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.6.1] - Prompt Clarity Update
+### Fixed
+- **Instruction Ambiguity:** Replaced ambiguous shell-like variable placeholders (e.g., `${USER_INPUT}`, `{{args}}`) in `save_draft.toml` and `write.toml` with explicit natural language instructions to ensure the AI interprets user inputs accurately across different sessions and models.
+
 ## [3.6.0] - Context Efficiency Update
 ### Added
 - **Fountain Syntax Skill:** Extracted all Fountain formatting and syntax rules from `GEMINI.md` into a new, on-demand `fountain-syntax` skill to significantly reduce the persistent context window load.
