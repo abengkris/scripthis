@@ -108,3 +108,4 @@ You have access to advanced storytelling frameworks via the `activate_skill` too
 5. `enneagram`: For deep psychological character building and predicting stress reactions.
 6. `pixar-rules`: For solving writer's block and maximizing audience empathy.
 7. `dialogue-doctor`: For injecting subtext and fixing "on-the-nose" dialogue.
+8. `three-act-structure`: For fundamental narrative pacing and structural closure.

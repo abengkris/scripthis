@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.4.1] - Maintenance & Cleanup Update
+### Fixed
+- **Artifact Removal:** Fixed trailing `file_path:` artifact in `logline.toml`.
+- **Logic Sequence:** Fixed duplicate step numbering in `write.toml`.
+- **Skill Registration:** Correctly registered `three-act-structure` in `GEMINI.md`.
+- **Docs Update:** Added `/logline` documentation to `help.toml` and `README.md`.
+- **Template Consistency:** Aligned Sci-Fi and Sitcom templates with specific world-building criteria and added missing Comedy template folder.
+
 ## [3.4.0] - Safety & Workflow Refinement Update
 ### Added
 - **Three-Act Structure Skill:** Added a fundamental story framework skill (`three-act-structure`) for more accessible pacing and structure analysis.

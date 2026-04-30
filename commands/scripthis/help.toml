@@ -23,6 +23,9 @@ Your script now moves through six professional stages. You can track your progre
 5. **PAGES:** Draft the actual script in professional Fountain syntax.
 6. **POLISH:** Perform structural and dialogue analysis via `/scripthis:review`.
 
+### ✍️ Logline Workshop
+Need to sharpen your premise? Use `/scripthis:logline` to validate your story's protagonist, goal, conflict, and stakes against professional standards.
+
 ### 🗺️ Script Navigation
 Use `/scripthis:scenes` to get an instant numbered list of all scene headings and their line numbers. It's the best way to see the "Big Picture" of your script's structure.
 

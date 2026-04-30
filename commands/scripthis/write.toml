@@ -7,13 +7,13 @@ You are executing the /write command. Follow this incremental drafting workflow:
    - If not found, inform the user: "Project structure incomplete: `outline.md` not found. Please run `/scripthis:setup` first to initialize your project." and stop.
 
 2. Use `read_file` to read `outline.md` and understand the story's progress.
-2. Present the next 1-2 upcoming beats from the outline and ask the user if they want to draft one of those or a specific scene based on {{args}}.
-3. Once a scene is selected:
+3. Present the next 1-2 upcoming beats from the outline and ask the user if they want to draft one of those or a specific scene based on {{args}}.
+4. Once a scene is selected:
     - Identify all characters involved in the scene.
     - Check the `characters/` folder using `list_directory`.
     - **CRITICAL:** If a character is involved but their markdown bible DOES NOT exist in the `characters/` folder, STOP writing. Tell the user: "Character '[Name]' is in this scene, but they don't have a Character Bible yet. Please define them briefly so I know how they speak, or run `/scripthis:character` first." Do not proceed until the character is defined.
     - Use `read_file` on the existing relevant character bibles and `world_rules.md`.
-4. Write the scene draft using strict Fountain syntax.
-5. Ask the user for feedback or approval.
-6. Once approved, use your standard file editing tools (like `replace` or `run_shell_command` with echo >>) to append the new scene to the main script file.
+5. Write the scene draft using strict Fountain syntax.
+6. Ask the user for feedback or approval.
+7. Once approved, use your standard file editing tools (like `replace` or `run_shell_command` with echo >>) to append the new scene to the main script file.
 """
