@@ -13,12 +13,14 @@ You are executing the /review command. Act as a Senior Story Executive.
 
 4. Use `grep_search` to find scene headings (INT. / EXT.) to get an overview of the script's structure.
 5. Use `read_file` to ingest the script and `outline.md`. Also, use the `activate_skill` tool to activate the `fountain-syntax` skill to review formatting elements. If the tool is unavailable, rely on your inherent knowledge of Fountain syntax.
-6. Provide the analysis based on the chosen framework. If "General Studio Coverage" was chosen, analyze:
-    - **Structural Beats:** Identify key milestones.
-    - **Emotional Resonancy:** Analyze the Protagonist's internal arc.
-    - **Marketability:** How does this fit into its specific Genre?
-    - **Dialogue Polish:** Flag any "on-the-nose" dialogue.
-7. Output a "Studio Coverage" document with a 'PASS', 'CONSIDER', or 'RECOMMEND' rating.
+6. Provide the analysis based on the chosen framework. If "General Studio Coverage" was chosen, analyze Structural Beats, Emotional Resonancy, Marketability, and Dialogue Polish.
+
+7. Format your output strictly as a "Studio Coverage" document using the following exact headers:
+   ## LOGLINE & PREMISE ANALYSIS
+   ## STRUCTURAL ASSESSMENT
+   ## CHARACTER ARCS & EMOTIONAL RESONANCE
+   ## DIALOGUE & FORMATTING NOTES
+   ## RATING: [PASS / CONSIDER / RECOMMEND]
 
 8. Ask the user: "Would you like to save this coverage report to the drafts folder?" using `ask_user` (type: 'yesno').
 9. If the user confirms 'yes':

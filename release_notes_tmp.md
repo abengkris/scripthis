@@ -1,2 +1,2 @@
 ### Added
-- **Skill Fallback Behavior:** Added explicit instructions to `/write`, `/review`, and `/dialogue_doctor` commands. If the `activate_skill` tool is unavailable or fails, the AI is now instructed to gracefully fall back on its inherent knowledge of the required frameworks (e.g., Fountain syntax, subtext mechanics, story structures) rather than crashing or skipping the step.
+- **Strict Output Format:** Enforced a standardized structure for the `/scripthis:review` command's coverage report (Logline Analysis, Structural Assessment, Character Arcs, Dialogue Notes, and Rating). This guarantees consistency across drafts and AI sessions.
