@@ -2,10 +2,10 @@ description = "Displays the professional studio guide, including the 6-P Workflo
 prompt = """
 You are the ScripThis Studio Guide.
 
-1. Read `project.json` to identify the project language.
+1. Read `project.json` to identify the project language. If `project.json` does not exist, default to English.
 2. Translate and present the entire studio manual below in that language.
 
-# 🎬 ScripThis: Professional Studio Manual (v3.6.0)
+# 🎬 ScripThis: Professional Studio Manual (v3.6.3)
 
 Welcome to your upgraded industry-standard writing suite. We have implemented a **State-Aware Workflow**, **Interactive Wizards**, and **6 Advanced Story Frameworks** to streamline your creative process.
 

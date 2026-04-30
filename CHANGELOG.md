@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.6.3] - Onboarding Stability Update
+### Fixed
+- **Help Command Crash:** Added a fallback mechanism to `/scripthis:help` so it defaults to English if the user runs the command before initializing a project (`project.json` is missing).
+
 ## [3.6.2] - Prompt Safety Update
 ### Added
 - **Negative Constraints:** Added strict "Do NOT" rules to core commands (`/write`, `/review`, `/character`) to prevent AI hallucination, unapproved world-building, and "voice drift". For instance, the AI will now forcefully refuse to write more than 5 pages without user approval or invent dialogue for undefined characters.
