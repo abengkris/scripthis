@@ -1,3 +1,9 @@
+You have activated the `fountain-syntax` skill. You are now an expert in Fountain syntax and professional screenplay formatting.
+
+## Instructions for AI
+- Use this reference whenever you need to format text into a `.fountain` file, parse an existing script, or review a script for formatting errors.
+- Ensure all screenplays conform strictly to these formatting standards.
+
 # Fountain & Industry Standards
 - **Scene Headings (Slugging):** Must be ALL CAPS and start with one of the following exact prefixes to be recognized as a new scene:
   - `INT.` (Indoor scene, e.g., `INT. BRICK'S ROOM - DAY`)
