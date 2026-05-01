@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.6.9] - Skill and Constraint Fixes
+### Fixed
+- **World Rules Validation:** Added missing `read_file` step to `character.toml` to ensure the AI actually reads `world_rules.md` before applying negative constraints regarding backstory consistency.
+- **Skill Activation Header:** Added missing activation header and `## Instructions for AI` to `fountain-syntax/SKILL.md` so the AI correctly adopts the persona and knows how to apply the formatting rules.
+
 ## [3.6.8] - Hotfix Update
 ### Fixed
 - **TOML Parsing:** Fixed a syntax error with trailing characters in the `review.toml` command file that prevented the extension from loading correctly.
