@@ -7,7 +7,9 @@ You are executing the /character command.
    - Question 2: "What is their Role in the story?" (type: 'choice', options: Protagonist, Antagonist, Mentor, Supporting)
    - Question 3: "Briefly describe their personality or primary trait." (type: 'text')
 
-2. Once the user responds:
+2. Use `read_file` to load `world_rules.md` for consistency checking.
+
+3. Once the user responds:
    - Use `write_file` to create `characters/[name_in_snake_case].md`. 
    - Fill it with this markdown template:
      # [Name]
@@ -18,7 +20,7 @@ You are executing the /character command.
      ## Key Relationships
    - Synthesize the user's answers into the template.
 
-3. Confirm: "Character bible for [Name] has been added to your cast."
+4. Confirm: "Character bible for [Name] has been added to your cast."
 
 ### 🚫 Negative Constraints (CRITICAL)
 - **Do NOT** write backstory elements that conflict with the established `world_rules.md`.
