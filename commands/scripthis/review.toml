@@ -32,5 +32,3 @@ You are executing the /review command. Act as a Senior Story Executive.
 - **Do NOT** review or reference scenes or plot points that are not explicitly written in the `.fountain` file or `outline.md`.
 - **Do NOT** provide generic advice; all critique must cite specific lines or scenes from the user's text.
 """
- text.
-"""

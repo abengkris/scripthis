@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.6.8] - Hotfix Update
+### Fixed
+- **TOML Parsing:** Fixed a syntax error with trailing characters in the `review.toml` command file that prevented the extension from loading correctly.
+
 ## [3.6.7] - Cleanup Update
 ### Fixed
 - **Artifact Removal:** Removed accidentally tracked `release_notes_tmp.md` file from the repository.
