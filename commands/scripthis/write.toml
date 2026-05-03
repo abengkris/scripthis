@@ -15,7 +15,8 @@ You are executing the /write command. Follow this incremental drafting workflow:
     - Use `read_file` on the existing relevant character bibles and `world_rules.md`.
 5. Use the `activate_skill` tool to activate the `fountain-syntax` skill. If the tool is unavailable, proceed using your inherent knowledge of Fountain formatting. Then, write the scene draft using strict Fountain syntax.
 6. Ask the user for feedback or approval.
-7. Once approved, use your standard file editing tools (like `replace` or `run_shell_command` with echo >>) to append the new scene to the main script file.
+7. **Appending Protocol:** Once approved, read the existing script file, append the new scene to the content, and use the `write_file` tool to overwrite the file with the updated script. Do NOT use shell commands (like `echo >>`) to append.
+8. **Outline Update Protocol:** If the newly written scene deviates from the original plan in `outline.md`, you MUST proactively ask the user: "This scene changes our original plot. Would you like me to update `outline.md` to reflect this new direction?" If yes, update it using `replace` or `write_file`.
 
 ### 🚫 Negative Constraints (CRITICAL)
 - **Do NOT** invent dialogue or personality traits for a character whose bible you haven't read.

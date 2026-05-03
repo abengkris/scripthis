@@ -19,6 +19,7 @@ You are executing the /character command.
      ## Backstory & Motivation
      ## Key Relationships
    - Synthesize the user's answers into the template.
+   - **Workflow Update:** After saving the character, use `replace` or `write_file` to update `workflow.md` and check off the 3rd stage (3. **PEOPLE**).
 
 4. Confirm: "Character bible for [Name] has been added to your cast."
 

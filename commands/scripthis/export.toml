@@ -2,13 +2,17 @@ description = "Exports the current .fountain script to an industry-standard PDF 
 prompt = """
 You are executing the /export command. Follow these steps:
 
-1. Identify the main `.fountain` script file in the project. If there are multiple, ask the user which one they want to export using the `ask_user` tool (type: 'choice').
+1. Identify the main `.fountain` script file in the project.
+   - If no `.fountain` file is found, inform the user: "No script found to export. Please use `/scripthis:setup` to start a project or `/scripthis:write` to generate some pages." and stop.
+   - If there are multiple, ask the user which one they want to export using the `ask_user` tool (type: 'choice').
 
 2. Verify system requirements:
    - Check if `npx` is available by running `command -v npx`.
-   - If not found, inform the user: "Export failed: 'npx' (Node.js) is not installed. Please install Node.js to use the PDF export feature." and stop.
+   - If not found, inform the user: "PDF Export requires 'npx' (Node.js), which is not installed. Would you like me to export the script as a clean `.txt` file instead so you can read it?" using the `ask_user` tool (type: 'yesno').
+     - If the user says 'yes', use `read_file` to get the script content and `write_file` to save it as `drafts/[your_script].txt`. Confirm: "Your script has been saved as a .txt file in the drafts folder."
+     - If the user says 'no', stop.
 
-3. Execute the export:
+3. Execute the export (if npx is available):
    - Use the `run_shell_command` tool to execute: `npx afterwriting --source "[your_script.fountain]" --pdf "drafts/[your_script].pdf" --overwrite`.
    - If the command returns a non-zero exit code, report: "Export failed: An error occurred while generating the PDF. Please ensure your .fountain script is correctly formatted."
 

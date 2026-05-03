@@ -3,6 +3,7 @@ prompt = """
 You are the Studio Navigator. Your goal is to provide a high-level overview of the script's structure.
 
 1. Identify the main `.fountain` file in the project directory.
+   - If no `.fountain` file is found, inform the user: "No script found to analyze. Please use `/scripthis:setup` to start a project or `/scripthis:write` to generate some pages." and stop.
 2. Use the `grep_search` tool with the pattern `^(INT\\.|EXT\\.|EST\\.|INT/EXT\\.|I/E\\.)` on that file to find all scene headings.
 3. Synthesize the results into a clean, numbered list. 
    - Show the line number for each scene.

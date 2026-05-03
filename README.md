@@ -27,6 +27,7 @@ Unlike standard AI writing tools, ScripThis uses **Grounding and State-Awareness
 | `/scripthis:workflow` | Summarizes project status and identifies the next professional milestone. |
 | `/scripthis:character` | Launches the Character Wizard to build a grounded cast bible. |
 | `/scripthis:write` | Drafts the next scene or sequence based on your approved outline. |
+| `/scripthis:rewrite` | Rewrites or edits a specific scene inside the script precisely. |
 | `/scripthis:review` | Provides a "Studio Coverage" report with structural and dialogue analysis. |
 | `/scripthis:scenes` | Displays an instant summary of all scene headings (Sluglines) in your script. |
 | `/scripthis:export` | Exports the current `.fountain` script to a professional PDF file. |

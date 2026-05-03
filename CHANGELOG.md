@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.7.0] - Precision Rewriting & Stability Update
+### Added
+- **Precision Rewriting:** Introduced the `/scripthis:rewrite` command. This enables surgical editing of specific scenes using `grep_search` and `replace` to avoid full-file overwrites and context window truncation.
+- **Outline Adaptation Protocol:** The AI now proactively asks to update `outline.md` whenever a newly written or rewritten scene deviates from the original plan.
+- **Export Fallback:** Added a fallback mechanism to `/scripthis:export` to convert the script to a clean `.txt` file if Node.js (`npx`) is not installed on the system.
+
+### Changed
+- **Safe Appending:** Refactored the `/scripthis:write` command to use native file tools (`read_file` -> `write_file`) for appending new scenes, removing the dependency on unsafe shell commands (`echo >>`).
+- **Explicit Workflow Tracking:** Improved `/scripthis:setup` and `/scripthis:character` to explicitly update and check off stages (PITCH and PEOPLE) in `workflow.md`.
+- **Documentation Update:** Updated `README.md` to include the new `/rewrite` command in the commands table.
+
 ## [3.6.9] - Skill and Constraint Fixes
 ### Fixed
 - **World Rules Validation:** Added missing `read_file` step to `character.toml` to ensure the AI actually reads `world_rules.md` before applying negative constraints regarding backstory consistency.

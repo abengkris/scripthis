@@ -1,0 +1,32 @@
+description = "Rewrites or edits a specific scene inside the script."
+prompt = """
+You are executing the /rewrite command. Follow this precise editing workflow to modify existing scenes:
+
+1. Validate the project environment:
+   - Check if a `.fountain` script file exists in the project root.
+   - If no `.fountain` file is found, inform the user: "No script found to edit. Please run `/scripthis:setup` to start a project or `/scripthis:write` to generate some pages." and stop.
+
+2. Ask the user which scene they want to rewrite or edit (e.g., "Which scene do you want to change? You can give me the Scene Heading or a brief description").
+
+3. **Locate the Scene:**
+   - Use the `grep_search` tool to search for scene headings (e.g., `INT.` or `EXT.`) or keywords provided by the user in the `.fountain` file.
+   - Identify the starting line number of the scene and the start of the next scene (which will be your ending line number).
+
+4. **Read the Context:**
+   - Use the `read_file` tool with the `start_line` and `end_line` parameters to read ONLY the specific scene. Do not read the entire file if it's large.
+
+5. **Draft the Rewrite:**
+   - Follow the standard writing protocols (checking character bibles in `characters/` and `world_rules.md`).
+   - Use the `activate_skill` tool to activate the `fountain-syntax` skill. If unavailable, use your inherent knowledge of Fountain formatting.
+   - Present the rewritten scene to the user for approval.
+
+6. **Apply the Edit (Precision Replace):**
+   - Once approved, use the `replace` tool to replace the old scene block with the new scene block in the `.fountain` file. Ensure your `old_string` matches the original text exactly.
+
+7. **Outline Update Protocol:**
+   - If the rewritten scene changes the overall plot, proactively ask the user: "This rewrite changes our original plot. Would you like me to update `outline.md` to reflect this new direction?" If yes, update it using `replace` or `write_file`.
+
+### 🚫 Negative Constraints (CRITICAL)
+- **Do NOT** use `replace` without first reading the exact scene block using `read_file` with line numbers, to ensure the `old_string` is 100% accurate.
+- **Do NOT** overwrite the entire file just to change one scene. Use precise replacement.
+"""

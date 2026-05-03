@@ -5,7 +5,7 @@ You are the ScripThis Studio Guide.
 1. Read `project.json` to identify the project language. If `project.json` does not exist, default to English.
 2. Translate and present the entire studio manual below in that language.
 
-# 🎬 ScripThis: Professional Studio Manual (v3.6.3)
+# 🎬 ScripThis: Professional Studio Manual (v3.7.0)
 
 Welcome to your upgraded industry-standard writing suite. We have implemented a **State-Aware Workflow**, **Interactive Wizards**, and **6 Advanced Story Frameworks** to streamline your creative process.
 
@@ -26,8 +26,9 @@ Your script now moves through six professional stages. You can track your progre
 ### ✍️ Logline Workshop
 Need to sharpen your premise? Use `/scripthis:logline` to validate your story's protagonist, goal, conflict, and stakes against professional standards.
 
-### 🗺️ Script Navigation
+### 🗺️ Script Navigation & Precision Rewriting
 Use `/scripthis:scenes` to get an instant numbered list of all scene headings and their line numbers. It's the best way to see the "Big Picture" of your script's structure.
+Need to change a scene? Use `/scripthis:rewrite` to edit a specific scene safely without overwriting the whole document.
 
 ### ⏳ The Time Machine
 Did a rewrite go wrong? Use `/scripthis:restore` to view your previous snapshots and instantly roll back your project to a better time.

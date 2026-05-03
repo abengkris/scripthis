@@ -22,6 +22,7 @@ You are executing the /setup command.
      - Use `read_file` to ingest its `outline.md` and `world_rules.md` from the mapped folder.
    - Use `write_file` to create the project's `outline.md` and `world_rules.md` using the content from those templates.
    - Create `workflow.md` using `write_file` with the standard 6-P Checklist.
+   - **Workflow Update:** Immediately after creating `workflow.md`, update it using `replace` or `write_file` to check off the first stage (1. **PITCH**).
    - Create the main `.fountain` file with the Title Page using `write_file`. The Title Page MUST use standard Fountain `Key: Value` format.
    
 3. Report: "Studio workspace for '[Title]' initialized with [Genre] templates. Ready for the PITCH phase."
