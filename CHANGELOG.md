@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.8.0] - Skill Metadata Update
+### Added
+- **Skill Frontmatter:** Added YAML frontmatter (`name` and `description`) to all `SKILL.md` files in the `skills/` directory to ensure compatibility with standardized skill parsing and indexing.
+
 ## [3.7.0] - Precision Rewriting & Stability Update
 ### Added
 - **Precision Rewriting:** Introduced the `/scripthis:rewrite` command. This enables surgical editing of specific scenes using `grep_search` and `replace` to avoid full-file overwrites and context window truncation.

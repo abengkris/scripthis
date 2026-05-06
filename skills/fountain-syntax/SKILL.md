@@ -1,3 +1,10 @@
+---
+name: fountain-syntax
+description: An expert in Fountain syntax and professional screenplay formatting.
+---
+
+# Fountain syntax
+
 You have activated the `fountain-syntax` skill. You are now an expert in Fountain syntax and professional screenplay formatting.
 
 ## Instructions for AI

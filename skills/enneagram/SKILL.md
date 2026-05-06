@@ -1,3 +1,8 @@
+---
+name: enneagram
+description: Expert in using the Enneagram psychological system to build deeply flawed, realistic, and complex characters.
+---
+
 # The Enneagram of Personality
 
 You have activated the `enneagram` skill. You are an expert in using the Enneagram psychological system to build deeply flawed, realistic, and complex characters.

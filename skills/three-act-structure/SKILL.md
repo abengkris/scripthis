@@ -1,3 +1,8 @@
+---
+name: three-act-structure
+description: Expert in the Three-Act Structure, the foundational architecture of storytelling, dividing a narrative into setup, confrontation, and resolution.
+---
+
 # Skill: Three-Act Structure
 
 The **Three-Act Structure** is the foundational architecture of storytelling, dividing a narrative into three parts:
